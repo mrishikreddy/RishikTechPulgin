@@ -28,4 +28,4 @@ jobs:
           SENDER_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
           DESTINATION_MAIL: ${{ secrets.DESTINATION_MAIL }}
           
-        run: python gmailsender.py
+        run: python gmailSender.py
