@@ -38,4 +38,4 @@ jobs:
 
       # Run the Python script
       - name: Run Python Script
-        run: gmailsender.py
+        run: python gmailsender.py
