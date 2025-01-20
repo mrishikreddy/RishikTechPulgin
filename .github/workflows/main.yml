@@ -1,4 +1,4 @@
-name: Run Python Script Daily
+name: Smart Mail Sender
 
 on:
   schedule:
