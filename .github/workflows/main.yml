@@ -24,5 +24,8 @@ jobs:
       # Run the Python script
       - name: Run Python Script
         env:
-          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          SENDER_MAIL: ${{ secrets.SENDER_MAIL }}
+          SENDER_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
+          DESTINATION_MAIL: ${{ secrets.DESTINATION_MAIL }}
+          
         run: python gmailsender.py
