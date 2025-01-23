@@ -7,7 +7,7 @@ import datetime
 from email.utils import formataddr
 import os 
 
-sender_name = "Rishik Tech Core"
+sender_name = "RishikTechAI"
 sender_email = os.getenv("SENDER_MAIL") 
 sender_password = os.getenv("SENDER_PASSWORD")  
 recipient_email = os.getenv("DESTINATION_MAIL")  
@@ -16,7 +16,6 @@ time = datetime.datetime.now()
 ddmm = str(time.day)+str(time.month)
 
 d = {
-    "231":["LeetCode topic: Fast & Slow Pointers","complete Portfolio website in 3 days","Revise 2 LeetCode old problems","completelly apply to all available internships right today"],
     "241":["LeetCode topic: Fast & Slow Pointers","complete Portfolio website in 3 days","Revise 2 LeetCode old problems","completelly apply to all available internships right today"],
     "251":["LeetCode topic: LinkedList In-place Reversal","workon LinkedIn profile,connections,jobs","complete Portfolio website in 2 days","Revise 2 LeetCode old problems"],
     "261":["LeetCode topic: Monotonic Stack","Apply for Internships","complete Portfolio website today","Revise 2 LeetCode old problems","Check and update Rishik Tech Mail Sender(RTMS)"],
