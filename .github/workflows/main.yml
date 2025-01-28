@@ -2,7 +2,7 @@ name: Smart Mail Sender
 
 on:
   schedule:
-    - cron: '00 2 * * *'
+    - cron: '00 1 * * *'
   workflow_dispatch:
 
 jobs:
@@ -24,4 +24,4 @@ jobs:
           SENDER_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
           DESTINATION_MAIL: ${{ secrets.DESTINATION_MAIL }}
           
-        run: python mailSender.py
+        run: python RishikTechMailSender.py
