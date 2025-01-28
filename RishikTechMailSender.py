@@ -7,15 +7,11 @@ import datetime
 from email.utils import formataddr
 import os 
 
-# sender_name = "Rishik Tech Assistant"
-# sender_email = os.getenv("SENDER_MAIL") 
-# sender_password = os.getenv("SENDER_PASSWORD")  
-# recipient_email = os.getenv("DESTINATION_MAIL")  
-
 sender_name = "Rishik Tech Assistant"
-sender_email = "rishiktechcore@gmail.com" 
-sender_password ="vycg okzi rrfi fwxs"  
-recipient_email = "malerishikreddy@gmail.com" 
+sender_email = os.getenv("SENDER_MAIL") 
+sender_password = os.getenv("SENDER_PASSWORD")  
+recipient_email = os.getenv("DESTINATION_MAIL")
+
 
 time = datetime.datetime.now()
 ddmm = str(time.day)+str(time.month)
